@@ -1,0 +1,43 @@
+{
+  "source_sha256": "ef0b918b983d9ebeb3f1af2495f30859f08700e843054b0b3311de394df7a4e4",
+  "core_files": [
+    "core.md"
+  ],
+  "blocks": [
+    {
+      "id": "state-log-before-handoff",
+      "start": 5,
+      "end": 5
+    },
+    {
+      "id": "alarm-log-then-notify",
+      "start": 6,
+      "end": 6
+    },
+    {
+      "id": "no-direct-edit",
+      "start": 10,
+      "end": 10
+    },
+    {
+      "id": "approval-before-correction",
+      "start": 11,
+      "end": 11
+    },
+    {
+      "id": "dual-confirmation-before-finish",
+      "start": 12,
+      "end": 12
+    },
+    {
+      "id": "emergency-safety-exception",
+      "start": 16,
+      "end": 16
+    },
+    {
+      "id": "maintenance-photo-exception",
+      "start": 17,
+      "end": 17
+    }
+  ]
+}

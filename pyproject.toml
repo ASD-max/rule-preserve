@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rule-preserve"
+version = "0.2.0"
+description = "Read-only byte-exact preservation checks for human-declared rule blocks"
+readme = "README.en.md"
+requires-python = ">=3.9"
+dependencies = []
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "John (ASD-max)"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+rule-preserve = "rule_preserve:main"
+
+[tool.setuptools]
+py-modules = ["rule_preserve"]
